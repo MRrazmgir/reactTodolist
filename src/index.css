@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+input[type="checkbox"]:checked::after {
+  content: ''; /* Create a pseudo-element */
+  display: block; /* Display the checkmark */
+  width: 10px; /* Width of the checkmark */
+  height: 15px; /* Height of the checkmark */
+  border: solid rgb(0, 0, 0); /* Color of the checkmark */
+  border-width: 0 4px 4px 0; /* Create a checkmark shape */
+  transform: rotate(45deg); /* Rotate to form a checkmark */
+  position: relative; /* Position for the pseudo-element */
+  left: 5px; /* Position from the left */
+  top: -0px; /* Position from the top */
+}
+
+
+
+
+
+
+

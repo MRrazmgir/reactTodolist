@@ -1,44 +1,3 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  margin: 0;
-  background-image: url('https://cdn.nody.ir/files/2021/09/22/nody-قیمت-میز-لپ-تاپ-چوبی-1632323179.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#app_island {
-  background-color: #ffffffb4;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 50px;
-  max-width: 50%;
-  min-width: 400px;
-  max-height: 85vh;
-  min-height: 250px;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  overflow-y: auto;
-}
-
-.division {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-  border: 1px solid #555;
-  display: flex;
-  justify-content: space-around;
-  box-sizing: border-box;
-}
-
 .list {
   display: flex;
   flex-direction: column;
@@ -47,23 +6,38 @@ body {
   margin: 10px 0;
 }
 
-#app_title {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/550/098/non_2x/blue-color-waves-particle-and-geometric-abstract-background-design-vector-illustration.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+h1{
   margin: 0 0 10px 0;
-  font-family: 'Helvetica', sans-serif; /* Set font to Helvetica */
+  text-align:center;
+  font-family: sans-serif; /* Set font to Helvetica */
   font-weight: 550; /* Set font weight */
   font-style: normal; /* Ensure the text is not italic */
   font-size: 42px; /* Set font size */
-  color: rgb(0, 0, 0); /* Set text color */
+  color: rgb(255, 255, 255); /* Set text color */
 }
 
 h2 {
   margin: 0;
   margin-top: 10px;
+  text-align:center;
   font-family: 'Helvetica', sans-serif; /* Set font to Helvetica */
   font-weight: 550; /* Set font weight */
   font-style: normal; /* Ensure the text is not italic */
   font-size: 24px; /* Set font size */
-  color: rgb(0, 0, 0); /* Set text color */
+  color: rgb(255, 255, 255); /* Set text color */
 }
 
 button {
@@ -76,7 +50,7 @@ button {
   cursor: pointer;
   margin: 0 5px;
   height: 20px;
-  background-color: #000;
+  background-color: #b6478b;
   color: #FFFFFF;
   border: 1px solid #555;;
   border-radius: 5px;
@@ -98,7 +72,7 @@ input[type="text"] {
 }
 
 span {
-  color: #000;
+  color: #000000;
   font-family: Helvetica, sans-serif; /* Set font to Arial */
   font-weight: 550; /* Make the text bold */
   font-style: normal; /* Ensure the text is not italic */
@@ -114,28 +88,12 @@ span {
 input[type="checkbox"] {
   width: 25px; /* Width of the checkbox */
   height: 25px; /* Height of the checkbox */
-  appearance: none; /* Remove default styling */
   border: 2px solid #ccc; /* Border for the checkbox */
   background-color: white; /* Background color */
   cursor: pointer; /* Pointer cursor on hover */
   outline: none; /* Remove outline */
 }
 
-/* Style when the checkbox is checked */
-input[type="checkbox"]:checked {
-  background-color: rgb(191, 255, 0); /* Change background color to green */
-  border-color: rgb(191, 255, 0); /* Change border color to green */
-}
 
-input[type="checkbox"]:checked::after {
-  content: ''; /* Create a pseudo-element */
-  display: block; /* Display the checkmark */
-  width: 10px; /* Width of the checkmark */
-  height: 15px; /* Height of the checkmark */
-  border: solid rgb(0, 0, 0); /* Color of the checkmark */
-  border-width: 0 4px 4px 0; /* Create a checkmark shape */
-  transform: rotate(45deg); /* Rotate to form a checkmark */
-  position: relative; /* Position for the pseudo-element */
-  left: 5px; /* Position from the left */
-  top: -0px; /* Position from the top */
-}
+
+
